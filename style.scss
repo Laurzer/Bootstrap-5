@@ -1,9 +1,0 @@
-$custom-colors: (
-  "my-custom-color": #d63384
-);
-
-@import "bootstrap/scss/bootstrap";
-
-.text-my-custom-color {
-  color: map-get($custom-colors, "my-custom-color");
-}
